@@ -41,9 +41,12 @@ Les commandes doivent etre fournies dans un fichier separe `COMMANDS.md`.
 ## Questions de reflexion
 
 - Pourquoi copier `package.json` avant le reste du code ?
+ Pour utiliser le cache pas besoin de réinstaller si il a deja etais installer
 - Quelle difference de taille entre `node:18` et `node:18-alpine` ?
+ la version node:18 fait environ 900 MB
+ La version node:18-alpine fait environ 120 MB
 - A quoi sert le tag `latest` ?
-
+ Ca sert a dire que la derniere version a jour sans connaitre le détail de la version complete
 ## Criteres de validation
 
 - L'image finale fait moins de 150 MB

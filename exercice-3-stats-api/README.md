@@ -74,8 +74,11 @@ Les commandes doivent etre fournies dans un fichier separe `COMMANDS.md`.
 ## Questions de reflexion
 
 - Quelle est la difference de taille entre `1.0.0` et `2.0.0` ?
+La 2.0.0 est plus legere
 - Pourquoi `pytest` ne doit pas rester dans l'image de production ?
+Pour une question d'optimisation
 - Comment recuperer explicitement la version `1.0.0` depuis Docker Hub ?
+docker pull arthurv1/stats-api:1.0.0
 
 ## Criteres de validation
 
